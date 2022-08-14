@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background: #f4f4f4;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width:  9px;
+}
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background: #3DD6AE;
+    border-radius:  100px;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    transition: all 500ms ease;
+    max-width: 80%;
+    margin: 0 auto;
+    z-index: 100;
+}
+@media only screen and (min-width: 764px) {
+    nav{
+        margin: 0 auto;
+    }
+}
+.bounce-animation{
+    animation: bounce 1s infinite ;
+}
+@keyframes bounce{
+    0%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left:  8px;
+    }
+    100%{
+        margin-left:  0px;
+    }
+}
+
+
+.gallery-grid{
+
+    grid-template-columns: repeat(auto-fit, minmax(50% , 1fr));
+    grid-template-rows:  auto;
+    grid-auto-flow: dense;
+}
+.vertical{
+    padding:  2px;
+    grid-row:  span 2;
+}
+.horizontal{
+    padding:  2px;
+    grid-column: span 2;
+}
+  
