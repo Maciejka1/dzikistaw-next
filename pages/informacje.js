@@ -20,7 +20,7 @@ function info(){
             </h1>
 
             <div className="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
-                <p className="text-4xl font-bold "><span class="text-green-300">Kiedy </span>sauna jest otworzona?</p>
+                <p className="text-4xl font-bold "><span className="text-green-300">Kiedy </span>sauna jest otworzona?</p>
                 <p className="text-xl max-w-xl">
                     Sauna jest otworzona w okresie od września do maja w poniedziałki i środy od godziny 18:00 do 20:00, w razie zmian opublikujemy post na facebooku. 
                 </p>

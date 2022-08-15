@@ -4,7 +4,7 @@ export default function Gallery() {
   return (
     <div className="max-w-7xl mx-auto p-2">
         <h2 className="font-bold text-5xl md:text-7xl mt-40 mb-10">
-            <span class="text-green-300">Galeria </span>obiektu
+            <span className="text-green-300">Galeria </span>obiektu
         </h2>
         <section className="mt-10">
             <div className="sm:grid">
@@ -18,8 +18,8 @@ export default function Gallery() {
                     <img src="/sauna-outside-gallery.webp" alt="dziki staw outside" />
                 </div>
             </div>
-            <p class="text-5xl max-w-2xl mt-10 mb-5 font-bold">
-            <span class="text-green-300">Gotowy</span> na relaks? Zobacz cennik lub skontaktuj się z nami!
+            <p className="text-5xl max-w-2xl mt-10 mb-5 font-bold">
+            <span className="text-green-300">Gotowy</span> na relaks? Zobacz cennik lub skontaktuj się z nami!
             </p>
             <div className="flex flex-wrap gap-2">
             <Link href="/kontakt">

@@ -10,7 +10,7 @@ export default function PricesTile(props){
             <ul class="text-2xl">
                 {props.prices.map(prop => {
                     return(
-                        <li>
+                        <li key={prop.title}>
                             {prop.title} - <span className="font-semibold">{prop.price}</span>
                         </li>
                     )
