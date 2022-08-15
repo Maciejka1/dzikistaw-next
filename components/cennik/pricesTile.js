@@ -7,7 +7,7 @@ export default function PricesTile(props){
             <span className="text-green-300">{`${splitTitle[0]} `}</span>
             {splitTitle.slice(1).join(" ")}
         </h2>
-            <ul class="text-2xl">
+            <ul className="text-2xl">
                 {props.prices.map(prop => {
                     return(
                         <li key={prop.title}>
