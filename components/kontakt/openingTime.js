@@ -15,7 +15,7 @@ export default function OpeningTime(props){
         <p className={props.pStyle}>Dni otwarcia</p>
         {daysOfTheWeek.map(dayProps => {
             return(
-                <li className="flex items-center">
+                <li className="flex items-center" key={dayProps.day}>
                     <span className="font-bold">{dayProps.day}</span>
                     {dayProps.isOpened ? "18:00 - 20:00" : <FaTimes />}
                 </li>

@@ -5,9 +5,11 @@ function Prices(){
     return(
     <>
         <Nav/>
-        <main class="max-w-7xl mx-auto p-2 ">
+        <main className="max-w-7xl mx-auto p-2 ">
             <section>
-                <h2 className="mt-40 mb-5 font-bold text-5xl md:text-7xl"><span class="text-green-300">Cennik </span>sauny</h2>
+                <h2 className="mt-40 mb-5 font-bold text-5xl md:text-7xl">
+                    <span className="text-green-300">Cennik </span>sauny
+                </h2>
                 <div className="flex flex-col md:flex-row gap-3 ">
                     <PricesTile
                     title='Karnet na wejścia'
@@ -44,7 +46,9 @@ function Prices(){
                 </div>
             </section>
             <section>
-                <h2 className="mt-20 mb-5 font-bold text-5xl md:text-7xl"><span class="text-green-300">Inne </span>usługi</h2>
+                <h2 className="mt-20 mb-5 font-bold text-5xl md:text-7xl">
+                    <span className="text-green-300">Inne </span>usługi
+                </h2>
                 <div className="flex flex-col md:flex-row gap-3">
                     <PricesTile
                     title='Dodatkowe usługi'

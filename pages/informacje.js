@@ -13,36 +13,36 @@ function info(){
         <meta name="keywords" content="Dziki staw, sauna, olkusz, wypoczynek, jacuzzi olkusz, sauna olkusz"/>
         <title>Dziki staw - Informacje</title>
     </Head>
-    <main class="max-w-7xl mx-auto p-2">
-        <section class="mt-40">
-            <h1 class="text-5xl md:text-7xl font-bold">
-                <span class="text-green-300">Dodatkowe </span>informacje
+    <main className="max-w-7xl mx-auto p-2">
+        <section className="mt-40">
+            <h1 className="text-5xl md:text-7xl font-bold">
+                <span className="text-green-300">Dodatkowe </span>informacje
             </h1>
 
-            <div class="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
-                <p class="text-4xl font-bold "><span class="text-green-300">Kiedy </span>sauna jest otworzona?</p>
-                <p class="text-xl max-w-xl">
+            <div className="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
+                <p className="text-4xl font-bold "><span class="text-green-300">Kiedy </span>sauna jest otworzona?</p>
+                <p className="text-xl max-w-xl">
                     Sauna jest otworzona w okresie od września do maja w poniedziałki i środy od godziny 18:00 do 20:00, w razie zmian opublikujemy post na facebooku. 
                 </p>
             </div>
 
-            <div class="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
-                <p class="text-4xl font-bold "><span class="text-green-300">Karnet </span>na wejścia</p>
-                <p class="text-xl max-w-xl">
-                    Karnet sześciu lub trzech wejść jest ważny przez <span class="font-bold">nieograniczony</span> czas. 
+            <div className="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
+                <p className="text-4xl font-bold "><span className="text-green-300">Karnet </span>na wejścia</p>
+                <p className="text-xl max-w-xl">
+                    Karnet sześciu lub trzech wejść jest ważny przez <span className="font-bold">nieograniczony</span> czas. 
                     Aby zakupić karnet prosimy napisać na <a href="https://www.facebook.com/Dzikistawolkusz">facebooku</a>.
                 </p>
             </div>
-            <div class="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
-                <p class="text-4xl font-bold"><span class="text-green-300 ">Wynajem </span>na wyłączność</p>
-                <p class="text-xl max-w-xl">
+            <div className="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
+                <p className="text-4xl font-bold"><span className="text-green-300 ">Wynajem </span>na wyłączność</p>
+                <p className="text-xl max-w-xl">
                     Na wyłączność można wynająć samą saunę, samo jacuzzi lub saunę i jacuzzi.Zapraszamy do kontaktu na facebooku lub numer telefonu 793 201 154.
                 </p>
             </div>
-            <div class="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
-                <p class="text-4xl font-bold"><span class="text-green-300">Przeciwskazania </span> korzystania z sauny</p>
-                <p class="text-xl">Nie zaleca się korzystania z sauny podczas:</p>
-                <ul class="list-disc ml-5 text-xl">
+            <div className="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
+                <p className="text-4xl font-bold"><span className="text-green-300">Przeciwskazania </span> korzystania z sauny</p>
+                <p className="text-xl">Nie zaleca się korzystania z sauny podczas:</p>
+                <ul className="list-disc ml-5 text-xl">
                     <li>Infekcji</li>
                     <li>Ostrych stanów astmy</li>
                     <li>Chorób serca i krążenia</li>

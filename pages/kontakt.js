@@ -14,7 +14,7 @@ return(
     </Head>
     <Nav/>
     <main className="max-w-7xl mx-auto p-2">
-        <h2 className="font-bold text-5xl md:text-7xl mt-40 mb-10"><span class="text-green-300">
+        <h2 className="font-bold text-5xl md:text-7xl mt-40 mb-10"><span className="text-green-300">
             Skontaktuj</span><br/>się z nami
         </h2>
         <section className="mb-32">
