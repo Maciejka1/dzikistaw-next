@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa'
 function Nav() {
-  const [navControl, setNavControl] = React.useState()
-  return (
+    const [navControl, setNavControl] = React.useState()
+    return (
     <div>
         <div onClick={() => setNavControl('0')}>
             <div className="open-menu fixed m-5 text-4xl top-0 right-0 md:hidden" >
-                <i className="fas fa-bars"></i>
+                <FaBars/>
             </div>
         </div>
         <nav className="pr-2 flex flex-col top-0 -right-60 items-center w-40 h-screen bg-white fixed md:justify-between md:w-full md:h-12  md:right-0 md:left-0
@@ -38,7 +39,7 @@ function Nav() {
                 </Link>
             </ul>
             <div className="text-4xl md:hidden" onClick={() => setNavControl('-100%')}>
-                <i className="fas fa-times"></i>
+                <FaTimes/>
             </div>
         </nav>
     </div>
