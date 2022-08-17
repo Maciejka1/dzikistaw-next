@@ -7,9 +7,6 @@ export default function Cennik() {
 return(
 <>
     <Head>
-        <link rel="icon" href="/logo-mini.png" />
-        <meta name="description" content="Kto z nas nie uwielbia odprężyć się w saunie czy jacuzzi? Specjalnie dla was wkomponowaliśmy te dwie atrakcje w przepiękne otoczenie natury!" />
-        <meta name="keywords" content="Dziki staw, sauna, olkusz, wypoczynek, jacuzzi olkusz, sauna olkusz"/>
         <title>Dziki staw - Cennik</title>
     </Head>
     <Nav/>
