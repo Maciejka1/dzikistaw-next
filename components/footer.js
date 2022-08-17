@@ -29,7 +29,7 @@ return (
             <p className="font-bold">
                 Copyright  Paweł Babiuch 2021
             </p>
-            <p>Design and project by <a href="https://maciejka.netlify.app">Maciejka</a></p>
+            <p>Design and project by <a target="_blank" href="https://maciejka.vercel.app">Maciejka</a></p>
         </div>
     </div>
 </footer>

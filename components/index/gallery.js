@@ -19,7 +19,7 @@ export default function Gallery() {
                 </div>
             </div>
             <p className="text-5xl max-w-2xl mt-10 mb-5 font-bold">
-            <span className="text-green-300">Gotowy</span> na relaks? Zobacz cennik lub skontaktuj się z nami!
+                <span className="text-green-300">Gotowy</span> na relaks? Zobacz cennik lub skontaktuj się z nami!
             </p>
             <div className="flex flex-wrap gap-2">
             <Link href="/kontakt">
