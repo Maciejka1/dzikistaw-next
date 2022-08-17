@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Gallery from '../components/index/gallery'
 import Landing from '../components/index/landing'
 import ReviewSection from '../components/index/reviewSection'
-import Nav from '../components/nav'
-import Footer from '../components/footer'
+import { motion } from 'framer-motion'
 export default function Home() {
   return (
 <>
@@ -12,11 +11,15 @@ export default function Home() {
   </Head>
 
   <div className="bg-[#f4f4f4]">
-    <main className="max-w-7xl mx-auto p-2">
+    <motion.main className="max-w-7xl mx-auto p-2"
+        initial={{opacity: 0}}
+        animate={{opacity: 1, transition: {duration: 2}}}
+        exit={{opacity: 0}}
+    >
       <Landing/>
       <ReviewSection/>
       <Gallery/>
-    </main>
+    </motion.main>
   </div>
 </>
   )

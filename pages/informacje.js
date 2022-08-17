@@ -2,14 +2,18 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
-
+import { motion } from 'framer-motion'
 function info(){
     return(
 <>
     <Head>
         <title>Dziki staw - Informacje</title>
     </Head>
-    <main className="max-w-7xl mx-auto p-2">
+    <motion.main className="max-w-7xl mx-auto p-2"
+    initial={{opacity: 0}}
+    animate={{opacity: 1, transition: {duration: 1}}}
+    exit={{opacity: 0}}
+    >
         <section className="mt-40">
             <h1 className="text-5xl md:text-7xl font-bold">
                 <span className="text-green-300">Dodatkowe </span>informacje
@@ -55,7 +59,7 @@ function info(){
                 </ul>
             </div>
             </section>
-    </main>
+    </motion.main>
 </>
    )   
 }

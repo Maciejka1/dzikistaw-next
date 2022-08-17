@@ -4,7 +4,7 @@ import Footer from '../components/footer'
 import Head from 'next/head'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
     <AnimatePresence exitBeforeEnter>
       <Head>
@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
         <title>Dziki staw - Informacje</title>
       </Head>
       <Nav/>
-        <Component {...pageProps} />  
+        <Component {...pageProps} key={router.route} />  
       <Footer/>
     </AnimatePresence>
   )
