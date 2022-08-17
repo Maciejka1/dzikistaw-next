@@ -2,11 +2,11 @@ import Head from 'next/head'
 import React from 'react'
 import OpeningTime from '../components/kontakt/openingTime'
 import { motion } from 'framer-motion'
-export default function Cennik() {
+export default function Kontakt() {
 return(
 <>
     <Head>
-        <title>Dziki staw - Cennik</title>
+        <title>Dziki staw - Kontakt</title>
     </Head>
     <motion.main className="max-w-7xl mx-auto p-2"
     initial={{opacity: 0}}

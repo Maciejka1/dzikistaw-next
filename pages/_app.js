@@ -11,7 +11,6 @@ function MyApp({ Component, pageProps, router }) {
         <link rel="icon" href="/logo-mini.png" />
         <meta name="description" content="Kto z nas nie uwielbia odprężyć się w saunie czy jacuzzi? Specjalnie dla was wkomponowaliśmy te dwie atrakcje w przepiękne otoczenie natury!" />
         <meta name="keywords" content="Dziki staw, sauna, olkusz, wypoczynek, jacuzzi olkusz, sauna olkusz"/>
-        <title>Dziki staw - Informacje</title>
       </Head>
       <Nav/>
         <Component {...pageProps} key={router.route} />  
