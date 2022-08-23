@@ -1,7 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Nav from '../components/nav'
-import Footer from '../components/footer'
 import { motion } from 'framer-motion'
 function info(){
     return(
@@ -36,7 +34,7 @@ function info(){
             <div className="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">
                 <p className="text-4xl font-bold"><span className="text-green-300 ">Wynajem </span>na wyłączność</p>
                 <p className="text-xl max-w-xl">
-                    Na wyłączność można wynająć samą saunę, samo jacuzzi lub saunę i jacuzzi.Zapraszamy do kontaktu na facebooku lub numer telefonu 793 201 154.
+                    Na wyłączność można wynająć samą saunę, samo jacuzzi lub saunę i jacuzzi. Zapraszamy do kontaktu na facebooku lub numer telefonu 793 201 154.
                 </p>
             </div>
             <div className="bg-white rounded-2xl p-5 max-w-2xl mt-10 mb-3">

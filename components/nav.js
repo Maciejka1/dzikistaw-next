@@ -10,7 +10,7 @@ function Nav() {
                 <FaBars/>
             </div>
         </div>
-        <nav className="pr-2 flex flex-col top-0 -right-60 items-center w-40 h-screen bg-white fixed md:justify-between md:w-full md:h-12  md:right-0 md:left-0
+        <nav className="pr-2 flex flex-col top-0 items-center -right-60 w-40 h-screen bg-white fixed md:justify-between md:w-full md:h-12  md:right-0 md:left-0
         md:my-2 md:flex-row" style={{right: navControl}}> 
         <div className="md:h-full md:flex items-center">
             <img src="/logo-mini.png" alt="logo" className=" h-20 mt-8 rounded-full md:m-0 md:h-full md:rounded-none"/>
