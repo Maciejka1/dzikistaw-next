@@ -9,6 +9,7 @@ function Nav() {
         setWidth(window.screen.availWidth)
     }, [])
     let shouldResize = width <= 768 ? () => setNavControl('-100%') : undefined
+    console.log(shouldResize)
     return (
     <>
         <div onClick={() => setNavControl('0')}>
