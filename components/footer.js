@@ -27,9 +27,9 @@ return (
         </div>
         <div className="mt-5">
             <p className="font-bold">
-                Copyright  Paweł Babiuch 2021
+                Copyright Paweł Babiuch 2021
             </p>
-            <p>Design and project by <a target="blank" href="https://maciejka.vercel.app">Maciejka</a></p>
+            <p>Design and project by <a target="blank" className="underline" href="https://maciejka.vercel.app">Maciejka</a></p>
         </div>
     </div>
 </footer>
