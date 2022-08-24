@@ -9,7 +9,7 @@ export default function Landing() {
                 <h1 className="text-5xl md:text-8xl font-bold animate">
                     <span className="text-green-300 ">Najbardziej</span><br/>unikatowe<br/> miejsce w <span className="text-green-300">Olkuszu</span>
                 </h1>
-                <p className="text-xl md:text-xl my-5 font-light delay">Sauna na zewnątrz<br/> wprowadza niezwykłą atmosferę.</p>
+                <p className="text-md md:text-xl my-5 font-light delay">Sauna na zewnątrz<br/> wprowadza niezwykłą atmosferę.</p>
                 <Link href="/#gallery">
                     <a className="flex items-center font-semibold text-lg w-60">
                         <p className="z-10 no-underline">Dowiedz się więcej</p>
