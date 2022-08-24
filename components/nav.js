@@ -2,7 +2,13 @@ import Link from 'next/link';
 import React from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'
 function Nav() {
+    let resizeNavOnClick
     const [navControl, setNavControl] = React.useState()
+    const [width, setWidth] = React.useState()
+    React.useEffect(()=>{
+        setWidth(window.screen.availWidth)
+    }, [])
+    let shouldResize = width <= 768 ? () => setNavControl('-100%') : undefined
     return (
     <>
         <div onClick={() => setNavControl('0')}>
@@ -18,22 +24,22 @@ function Nav() {
         </div>
             <ul className="flex flex-col mb-10 text-black gap-5 font-semibold text-lg md:mb-0 md:flex-row md:text-black">
                 <Link href="/">
-                    <a>
+                    <a onClick={shouldResize}>
                         <li>Strona główna</li>
                     </a>
                 </Link>
                 <Link href="/cennik">
-                    <a>
+                    <a onClick={shouldResize}>
                         <li>Cennik</li>
                     </a>
                 </Link>
                 <Link href="/kontakt">
-                    <a>
+                    <a onClick={shouldResize}>
                         <li>Kontakt</li>
                     </a>
                 </Link>
                 <Link href="/informacje">
-                    <a>
+                    <a onClick={shouldResize}>
                         <li>Informacje</li>
                     </a>
                 </Link>
