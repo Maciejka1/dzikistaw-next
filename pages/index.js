@@ -10,7 +10,7 @@ export default function Home() {
     <title>Dziki staw - Sauna w Olkuszu</title>
   </Head>
 
-  <div className="bg-[#f4f4f4]">
+  <div className="bg-[#f4f4f4] text-xl">
     <motion.main className="max-w-7xl mx-auto p-2"
         initial={{opacity: 0}}
         animate={{opacity: 1, transition: {duration: 2}}}

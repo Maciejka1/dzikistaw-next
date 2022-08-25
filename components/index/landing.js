@@ -6,7 +6,7 @@ export default function Landing() {
     <section>
         <div className="mt-20 md:mt-48 lg:flex justify-evenly">
             <div className="mb-5">
-                <h1 className="text-5xl md:text-8xl font-bold animate">
+                <h1 className="text-5xl sm:text-8xl font-bold animate">
                     <span className="text-green-300 ">Najbardziej</span><br/>unikatowe<br/> miejsce w <span className="text-green-300">Olkuszu</span>
                 </h1>
                 <p className="text-md md:text-xl my-5 font-light delay">Sauna na zewnątrz<br/> wprowadza niezwykłą atmosferę.</p>
