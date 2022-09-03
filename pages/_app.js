@@ -3,7 +3,8 @@ import Nav from '../components/nav'
 import Footer from '../components/footer'
 import Head from 'next/head'
 import '../styles/globals.css'
-
+import "@fontsource/ubuntu"
+import "@fontsource/ubuntu/700.css"
 function MyApp({ Component, pageProps, router }) {
   return (
     <>
