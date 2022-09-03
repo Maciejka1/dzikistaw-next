@@ -1,11 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-p,h1,h2,button,span{
-    font-family: 'Ubuntu', sans-serif;
-}
 body{
     background: #f4f4f4;
+    font-family: "Ubuntu", sans-serif; 
 }
 html{
     scroll-behavior: smooth;
